@@ -82,6 +82,28 @@ Data preprocessing included:
 
 ---
 
+## Questions to Explore  
+
+- **Which features most influence laptop prices?**  
+  RAM, Weight, Screen Size (Inches), CPU Speed & Type, GPU, Screen Resolution, Memory, and Brand all have significant impact.  
+
+- **Can the model predict prices for lesser-known brands?**  
+  Reasonably well, but slightly less accurate due to fewer training examples for such brands.  
+
+- **Does brand significantly affect price?**  
+  Yes — brand is a strong predictor, with the model learning different price ranges for different companies.  
+
+- **How does the model perform on high-end vs budget laptops?**  
+  Performs better on budget/mid-range laptops; errors increase on premium laptops due to fewer examples and brand/design premiums not in features.  
+
+- **What are the main limitations?**  
+  Limited dataset variety, missing attributes (e.g., battery life, design factors), and changing market prices over time.  
+
+- **How does the model handle newly released laptops?**  
+  Works well if specs are similar to known ones, but struggles with unseen features (e.g., brand-new CPU or GPU series).  
+
+---
+
 ## How to Run  
 1. Clone the repository.  
 2. Install dependencies.
